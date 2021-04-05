@@ -9,6 +9,8 @@ _continue:
 add ecx, 1
 scasb
 jne _continue;
+
+
 mov edi, dword ptr[esp+4]
 mov esi, dword ptr[esp+4]
 add esi, ecx
