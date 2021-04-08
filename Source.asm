@@ -72,7 +72,7 @@ jne _begin_v;
 
 xor r10, r10
 mov rcx, r12   
-mov r10, 0
+xor r8, r8
 	_begin_dm:
 		mov rbx, qword ptr[rcx]
 		mov r15, r8
