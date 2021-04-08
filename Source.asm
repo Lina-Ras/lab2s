@@ -111,6 +111,6 @@ _endf:
 mov rax, 0
 
 _endt:
-ret
+ret 12
 IsMagicSquare endp
 end
