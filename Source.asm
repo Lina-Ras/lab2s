@@ -20,6 +20,7 @@ fld1
 fsubr
 fsqrt
 fld dword ptr[esp+4]
+fxch
 fpatan
 fldpi
 fdiv
